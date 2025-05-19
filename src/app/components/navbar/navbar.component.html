@@ -1,1 +1,19 @@
-<p>navbar works!</p>
+<mat-toolbar color="primary">
+  <button mat-icon-button aria-label="Menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <span>Inversiones App</span>
+
+  <span class="spacer"></span>
+
+  <!-- Links a rutas -->
+  <a mat-button routerLink="/login">Login</a>
+  <a mat-button routerLink="/dashboard">Dashboard</a>
+  <a mat-button routerLink="/alertas">Alertas</a>
+  <a mat-button routerLink="/inversiones">Inversiones</a>
+
+  <button mat-icon-button aria-label="User Account">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+</mat-toolbar>
